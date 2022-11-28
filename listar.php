@@ -1,4 +1,3 @@
-<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css"/>
 <div id="area">
 <?php
 //echo "menu ediciones";
@@ -188,11 +187,10 @@ $sql="
 </div>
 
 
-
+<!-- incluyo CDNs datatables, exports y fechas -->
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
 <script type="text/javascript" src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
 
-<!-- prueba para hacer export, ver cuales sirven -->
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.12.1/datatables.min.css" />
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css" />
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/2.2.3/css/buttons.dataTables.min.css" />
@@ -203,21 +201,18 @@ $sql="
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
     <script type="text/javascript" src="https://cdn.datatables.net/buttons/2.2.3/js/buttons.html5.min.js"></script>
     <script type="text/javascript" src="https://cdn.datatables.net/buttons/2.2.3/js/buttons.print.min.js"></script>
-    
-    
+        
     <!-- Moment.js: -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.4/moment.min.js"></script>
-<!-- Locales for moment.js-->
+    <!-- Locales for moment.js-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.4/locale/es.js"></script>
     <script src="https://cdn.datatables.net/plug-ins/1.13.1/sorting/datetime-moment.js"></script>
 
-
-<!--    <script type="text/javascript" src="https://momentjs.com/downloads/moment.min.js"></script> -->
-<!-- fun prueba -->
+<!-- fin cdns -->
 
 
 <script type="application/javascript">
-
+    //js se ejecuta al finalizar de crearse las tablas del en el while
     $(document).ready( function () {
       	
         moment.locale('es');
