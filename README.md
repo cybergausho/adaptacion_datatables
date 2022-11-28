@@ -9,4 +9,5 @@ La funcion se inicializa al cargar el documento completo por javascript (documen
 Lo cual permite que primero se visualice el documento con todas las tablas y luego ejecuta el datatables para no romper la vista.
 
 Es ideal separar esto y llamarlo mediante una peticion.. ¿ajax?
+
 btw, this is the way 💻
