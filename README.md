@@ -1,4 +1,4 @@
-# adaptacion_datatables
+# Datatables en HTML con PHP incrustado.
 listar.php -- nuevo
 listar_old.php --archivo viejo de ejemplo.
 
